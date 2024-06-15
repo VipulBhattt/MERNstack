@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #352d32;
+    color: #fffffe;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #272321;
+    color: #fff;
+    
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+.intro {
+    margin: 20px 0;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #bdc9d0;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Blog post section */
+.blog-post {
+    margin: 20px 0;
+}
+
+.blog-post h2 {
+    font-size: 2em;
+    color: #bdc9d0;
+}
+
+.blog-post p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Contact section */
+.contact {
+    margin: 20px 0;
+}
+
+.contact h2 {
+    font-size: 2em;
+    color: #bdc9d0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin: 10px 0 5px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #bdc9d0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #272321;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #bdc9d0;
+    color: #fff;
+    margin-top: 20px;
+}
